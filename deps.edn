@@ -1,0 +1,2 @@
+{:deps {org.fxmisc.flowless/flowless {:mvn/version "0.6.10"}
+        cljfx/cljfx {:mvn/version "1.7.19"}}}
