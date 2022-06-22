@@ -1,7 +1,13 @@
-# cljfx/flowless
+[![Clojars Project](https://img.shields.io/clojars/v/io.github.vlaaad/cljfx-flowless.svg)](https://clojars.org/io.github.vlaaad/cljfx-flowless)
 
-Cljfx/flowless is a wrapper of [Flowless](https://github.com/FXMisc/Flowless) library 
-— a virtual flow implementation (like a list view) with "dumb cells".
+# cljfx-flowless
+
+Cljfx-flowless is an idiomatic wrapper of [Flowless](https://github.com/FXMisc/Flowless) 
+library — an efficient virtual flow implementation similar to list view.
+
+# Requirements
+
+cljfx/flowless requires Java 11.
 
 # Usage
 
