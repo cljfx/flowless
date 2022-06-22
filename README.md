@@ -5,6 +5,10 @@
 Cljfx-flowless is an idiomatic wrapper of [Flowless](https://github.com/FXMisc/Flowless) 
 library — an efficient virtual flow implementation similar to list view.
 
+# Installation
+
+See latest version of `io.github.vlaaad/cljfx-flowless` on [Clojars](https://clojars.org/io.github.vlaaad/cljfx-flowless).
+
 # Requirements
 
 cljfx/flowless requires Java 11.

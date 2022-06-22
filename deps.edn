@@ -1,5 +1,7 @@
 {:deps {org.fxmisc.flowless/flowless {:mvn/version "0.6.10"}
         cljfx/cljfx {:mvn/version "1.7.19"}}
- :aliases {:build {:extra-deps {io.github.clojure/tools.build {:git/tag "v0.8.2" :git/sha "ba1a2bf"}
-                                clj-commons/pomegranate {:mvn/version "1.2.0"}}
+
+ :aliases {;; clj -T:build deploy
+           :build {:deps {io.github.clojure/tools.build {:git/tag "v0.8.2" :git/sha "ba1a2bf"}
+                          clj-commons/pomegranate {:mvn/version "1.2.0"}}
                    :ns-default build}}}
