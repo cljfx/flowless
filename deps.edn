@@ -1,5 +1,5 @@
-{:deps {org.fxmisc.flowless/flowless {:mvn/version "0.6.10"}
-        cljfx/cljfx {:mvn/version "1.7.19"}}
+{:deps {org.fxmisc.flowless/flowless {:mvn/version "0.7.1"}
+        cljfx/cljfx {:mvn/version "1.7.24"}}
 
  :aliases {;; clj -T:build deploy
            :build {:deps {io.github.clojure/tools.build {:git/tag "v0.8.2" :git/sha "ba1a2bf"}
